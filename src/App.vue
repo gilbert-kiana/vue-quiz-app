@@ -45,21 +45,111 @@ export default {
     return{
       questions:[
         {
-          question:'Whose the writer of this program.',
+          question:'What was the first company to produce a handheld mobile phone.',
           options:[
-            {option:'kaiser',correct:true},
-            {option:'kiana'},
-            {option:'gilbert'},
-            {option:'intabo'} 
+            {option:'Sony'},
+            {option:'Samsung'},
+            {option:'Motorola',correct:true},
+            {option:'Nokia'} 
           ]
         },
         {
-          question:'Which is my favorite school',
+          question:'What car company has a horse logo.',
           options:[
-            {option:'maseno',correct:true},
-            {option:'alliance'},
-            {option:'lenana'},
-            {option:'orero'} 
+            {option:'Ferrari',correct:true},
+            {option:'Bentley'},
+            {option:'Alfa Romeo'},
+            {option:'Audi'} 
+          ]
+        },
+         {
+          question:'In which state is "silicon valley" located.',
+          options:[
+            {option:'Texas'},
+            {option:'California',correct:true},
+            {option:'Arizona'},
+            {option:'Colorado'} 
+          ]
+        },
+         {
+          question:'Which country does yoga come from',
+          options:[
+            {option:'India',correct:true},
+            {option:'Egypt'},
+            {option:'Germany'},
+            {option:'Japan'} 
+          ]
+        },
+         {
+          question:'Sheldon,in the Big Bang Theory is a Scientist.But what type of scientist is he.',
+          options:[
+            {option:'Astronomer'},
+            {option:'Mechanical Engineer'},
+            {option:'Theoretical Physist',correct:true},
+            {option:'Experimental Physist'} 
+          ]
+        },
+         {
+          question:'What is the name of the blue Teenage mutant ninja Turtle',
+          options:[
+            {option:'Leornado',correct:true},
+            {option:'Donatello'},
+            {option:'Raphael'},
+            {option:'Michelangelo'} 
+          ]
+        },
+         {
+          question:'Blackjack is also known as',
+          options:[
+            {option:'Fourteen'},
+            {option:'Thirty-one'},
+            {option:'Aces'},
+            {option:'Twenty-one',correct:true} 
+          ]
+        },
+         {
+          question:'Who invented the diesel engine',
+          options:[
+            {option:'Rudolf Diesel'},
+            {option:'Shawn diesel'},
+            {option:'Bill diesel',correct:true},
+            {option:'vin diesel'} 
+          ]
+        },
+         {
+          question:'Which of the following  browsers was developed by microsoft',
+          options:[
+            {option:'opera'},
+            {option:'Safari'},
+            {option:'Explorer',correct:true},
+            {option:'Firefox'} 
+          ]
+        },
+         {
+          question:'Who developed the first automobile',
+          options:[
+            {option:'Gilbert kaiser'},
+            {option:'Nils Bohr'},
+            {option:'Henry ford'},
+            {option:'karl benz',correct:true} 
+          ]
+        },
+         {
+          question:'Which of the following gaming consoles was developed by sony',
+          options:[
+            {option:'Gameboy'},
+            {option:'Playstation',correct:true},
+            {option:'Wii'},
+            {option:'Xbox'} 
+          ]
+        },
+         {
+          question:'"Geniuses are always branded as crazy" whose quote is this.',
+          options:[
+            {option:'lobos'},
+            {option:'Barney'},
+            {option:'Escobar',correct:true},
+            {option:'Walt'} 
           ]
         }
         
@@ -98,6 +188,7 @@ export default {
       if (this.questions.length -1 ==this.a){
         this.score_show=true;
         this.quiz =false;
+
       }
       else{
     this.a++;
@@ -277,17 +368,10 @@ button:hover{
 }
 
 .restart button{
- width: 150px;
-  height: 35px;
-  outline: none;
-  border: 0;
-  color:white; 
-  font-size: 10px;
-  cursor: pointer;
-  border-radius: 15px;
-  margin: auto;
-  background-color: rgb(100,128, 202);
-
+ border-radius:50%; width:5em;
+ height:5em;
+ background: cornflowerblue;
+ 
 
 }
 
